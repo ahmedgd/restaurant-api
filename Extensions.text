@@ -1,0 +1,72 @@
+
+✅ أهم Extensions لـ FastAPI وPython في VS Code
+
+ 1. Python
+
+ اسم الإضافة: `Python` (بواسطة Microsoft)
+ الوظيفة:
+
+   IntelliSense (إكمال تلقائي للكود)
+   إدارة الـ Virtual Environment
+   تشغيل وتشخيص السكريبتات
+
+---
+
+ 2. Pylance
+
+ اسم الإضافة: `Pylance` (بواسطة Microsoft)
+ الوظيفة:
+
+   تحسين IntelliSense بشكل كبير
+   كشف الأخطاء أثناء الكتابة
+   يدعم Type Hinting (وده مفيد مع FastAPI + Pydantic)
+
+---
+
+3. FastAPI Snippets
+
+ اسم الإضافة: `FastAPI Snippets`
+ الوظيفة:
+
+   يوفر قوالب سريعة (snippets) لكتابة Routes، Models، وغيرها بسرعة
+
+---
+
+🔹 4. REST Client أو Thunder Client
+
+ REST Client:
+
+   تقدر تجرب API داخل VS Code بملف `.http`
+ Thunder Client:
+
+   UI شبه Postman لكنه مدمج داخل VS Code
+   أنصح بـ Thunder Client لو بتحب الواجهة الرسومية
+
+---
+
+5. Docker (لو هنعمل Dockerfile للمشروع لاحقًا)
+
+ إدارة الحاويات (Containers)
+ تشغيل المشروع في بيئة معزولة
+
+---
+
+6. GitLens
+
+ يسهل إدارة الـ Git
+ يعرض مين كتب كل سطر (blame)
+ مفيد لو هترفع المشروع على GitHub وتتابع التعديلات
+
+---
+
+7. SQLite Viewer (اختياري)
+
+ لو هنستخدم SQLite
+
+
+ python -m venv venv
+ #لو ويندوز:
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+.\venv\Scripts\Activate.ps1
+#(venv) PS C:\Project\restaurant-api>
+

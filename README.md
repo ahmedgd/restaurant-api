@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 🍽️ مشروع REST API لمطعم باستخدام FastAPI
 
 ### ✍️ تم بواسطة: [م. أحمد جمال](https://www.linkedin.com/in/ahmed-gamal-dev/)
@@ -127,3 +128,7 @@ curl -X POST http://127.0.0.1:8000/auth/login \
 ---
 
 بالتوفيق للجميع ❤️
+=======
+# restaurant-api
+A simple restaurant API built with FastAPI and SQLite. Includes user registration, login (JWT), and meal management.
+>>>>>>> 7abd2d4ecb2d331aee8b85295c4eceb76905b91f
